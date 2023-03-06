@@ -2,6 +2,7 @@
 # inventory.sh
 #Author:Nene
 #Date:03/05/2023
+
 echo -e "\n\nChecking CPU IFO\n\n"
 
 sleep 3
@@ -32,6 +33,7 @@ echo -e "\nChecking the system Bits\n"
 
 sleep 3
 getconf LONG_BIT
+exit 0
 
 
 
